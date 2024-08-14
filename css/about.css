@@ -1,0 +1,120 @@
+/* Resetting some global styles */
+body {
+    font-family: "Helvetica", sans-serif; /* Default font for body */
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Indie Flower", cursive; /* Specific font for h1 titles */
+}
+
+/* Navigation Bar */
+.navigation-container {
+    width: 0%;
+    float: left;
+    margin-left: 30px;
+}
+  
+.navigation-bar {
+    background-color: rgb(29, 32, 34);
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+  
+.navigation-bar img {
+    float: left;
+    padding: 10px;
+    height: 60px;
+}
+
+/* Link styles */
+.about-link {
+    color: #333; /* Default color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.about-link:hover {
+    color: #e5a510; /* Orange color on hover */
+}
+
+#more {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    color: rgb(255, 255, 255);
+    display: inline;
+    text-decoration: none;
+}
+#more:hover {
+    color: #e5a510; 
+    cursor: pointer; 
+}
+
+/* Main Content Styles */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1, .container h2 {
+    font-family: "Indie Flower", cursive; 
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    text-decoration: underline;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.container p {
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-family: "Handlee", cursive;
+    font-size: 18px;
+    color: #555;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer a {
+    color: #e5a510;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
